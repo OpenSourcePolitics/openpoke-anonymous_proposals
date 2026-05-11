@@ -2,7 +2,9 @@
 
 require "spec_helper"
 
+# rubocop:disable RSpec/DescribeClass
 describe "Filter Proposals", :slow do
+  # rubocop:enable RSpec/DescribeClass
   include_context "with a component"
   let(:manifest_name) { "proposals" }
 
